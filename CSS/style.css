@@ -1,0 +1,202 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe Ui', sans-serif;
+}
+
+/* BACKGROUND UNGU MODERN */
+body {
+    background: linear-gradient(180deg, #0f0524, #1a0838, #12062b);
+    color: white;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 70px 20px 40px;
+}
+
+.profile {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #b388ff;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #d0b3ff;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    max-width: 500px;
+    margin: 15px auto;
+    color: #d1c4e9;
+    line-height: 1.6;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.container h2 {
+    color: #caa6ff;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* CARD MINIMALIS */
+.card {
+    background: rgb(255,255,255, 0.05);
+    backdrop-filter: blur(10px);
+    padding: 18px 20px;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    border: 1px solid rgb(255,255,255,0.08);
+    transition: 0.3s;
+}
+
+.card :hover {
+    transform: translateY(-4px);
+    border-color: #b388ff;
+}
+
+.card h3 {
+    color: #e0cfff;
+    margin-bottom: 6px;
+}
+
+.card span {
+    color: #c5b6e6;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* BUTTON (Youtube & Lynk) */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg,#a855f7,#7c3aed);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn :hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}
+
+/* TOOLS & TEKNOLOGI */
+.tools {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+/* CARD BESAR */
+.tools-card {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    padding: 50px 20px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: all 0.3s;
+}
+
+/* HOVER TETEP KONSISTEN */
+.tools-card:hover {
+    transform: translateY(-10px);
+    border-color: #b388ff;
+    box-shadow: 0 10px 30px rgba(140,82,255,0.35);
+}
+
+/* LOGO */
+.tools-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+
+/* ANIMASI LOGO SAAT HOVER */
+.tools-card:hover img {
+    transform: scale(1.08);
+}
+
+/* TEXT DIBAWAH LOGO */
+.tools-card h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 8px;
+}
+
+/* ===== MEDIA SOSIAL ===== */
+.social-icons{
+    display: flex;
+    justify-content: flex-start;   /* tengah */
+    align-items: center;
+    gap: 30px;                 /* jarak antar logo */
+    margin-top: 25px;
+}
+
+/* LOGO */
+.social-img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);  /* jadi putih */
+    opacity: 0.85;
+    transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.social-img:hover{
+    transform: translateY(-2px) scale(1.1);
+    opacity: 1;
+    filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(179,136,255,0.7));
+}
+
+.follow-text{
+    margin-top: 12px;
+    font-size: 15px;
+    opacity: 0.75;
+    letter-spacing: 0.5px;
+    transition: 0.3s ease;
+}
+
+.follow-text:hover{
+    opacity: 1;
+    transform: translateX(5px);
+}
+
+/* FOOTER */
+footer{
+    margin-top:100px;
+    padding:35px 20px;
+    text-align:center;
+
+    /* glass minimal look */
+    background:rgba(255,255,255,0.03);
+    backdrop-filter:blur(10px);
+
+    border-top:1px solid rgba(167,139,250,0.25);
+
+    color:#cfcfff;
+    font-size:15px;
+    letter-spacing:0.5px;
+}
