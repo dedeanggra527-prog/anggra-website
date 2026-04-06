@@ -8,10 +8,10 @@
 
 /* BACKGROUND UNGU MODERN */
 body {
-    background: linear-gradient(180deg, #0d1b3d, #142850, #1a3c6e);
-    color: #e6edf7;
-    
-    background-attachment: fixed;
+    background-color: #060F25;
+    /* Atau gunakan gradient agar lebih mirip dengan gambar */
+    background: linear-gradient(180deg, #0A1931 0%, #060F25 100%);
+    color: #FFFFFF; /* Agar teks putih terlihat jelas */
 }
 
 /* HERO */
