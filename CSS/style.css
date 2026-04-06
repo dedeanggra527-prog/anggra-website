@@ -8,8 +8,10 @@
 
 /* BACKGROUND UNGU MODERN */
 body {
-    background: linear-gradient(180deg, #0b1220, #0f1b2e, #0a1626);
+    background: linear-gradient(180deg, #0d1b3d, #142850, #1a3c6e);
     color: #e6edf7;
+    
+    background-attachment: fixed;
 }
 
 /* HERO */
